@@ -1,21 +1,32 @@
+html{
+    height: 100%;
+}
+
 body {
     background-color: #000000;
-    background-image: linear-gradient(90deg, #000000, #222222, #000000);
-    color: beige;
+    background-image: linear-gradient(180deg, #444343, #000000, #444343);
+    background-size: cover;  
+    z-index: 5;
 }
 
 nav > a {
-    font-size: 24px;
-    margin: 5px;
-    padding: 60px;
+    font-size: 18px;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navigation {
+    height: 60px;
+    padding-top: 40px;
+    background-color: rgb(209, 47, 74);
 }
 
 a:link {
-    color: beige;
+    color: rgb(0, 0, 0);
 }
 
 a:visited {
-    color:greenyellow;
+    color:rgb(64, 107, 0);
 }
 
 a:hover {
@@ -23,5 +34,17 @@ a:hover {
 }
 
 #top {
-    padding-top: 100px;
+    margin-top: 50px;
+}
+
+#middle {
+    margin-top: 50px;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
 }
