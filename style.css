@@ -18,7 +18,12 @@ nav > a {
 .navigation {
     height: 60px;
     padding-top: 40px;
-    background-color: rgb(209, 47, 74);
+    background-color: rgb(177, 170, 171);
+}
+th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    font-color: aliceblue;
 }
 
 a:link {
@@ -26,7 +31,7 @@ a:link {
 }
 
 a:visited {
-    color:rgb(64, 107, 0);
+    color:rgb(153, 0, 145);
 }
 
 a:hover {
