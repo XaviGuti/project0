@@ -20,10 +20,16 @@ nav > a {
     padding-top: 40px;
     background-color: rgb(177, 170, 171);
 }
-th, td {
-    border: 2px solid white;
+.tabledata {
+    border: 2px solid aliceblue;
     border-collapse: collapse;
-    font-color: aliceblue;
+    margin-top: 40px;
+    color: aliceblue;
+}
+
+th, td{
+    border: 2px solid aliceblue;
+    padding: 10px;
 }
 
 a:link {
@@ -44,12 +50,23 @@ a:hover {
 
 #middle {
     margin-top: 50px;
+    margin-left: 10px;
 }
 
 h1 {
     color: aliceblue;
+    margin: 10px;
 }
 
 p {
     color: aliceblue;
+}
+
+ul {
+    color: aliceblue;
+    margin-top: 40px;
+}
+
+li {
+    padding: 10px;
 }
