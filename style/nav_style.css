@@ -1,7 +1,7 @@
 nav {
   background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(aliceblue), to(#000000));
   background: linear-gradient(180deg, #000000, aliceblue, #000000);
-  height: 70px;
+  height: 64px;
   padding-top: 40px;
   border-radius: 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
