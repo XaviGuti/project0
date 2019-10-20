@@ -26,7 +26,7 @@ nav_style.scss file. The style.css file contains the majority of the styling use
 the information for styling the navigation bar.
 
 Just as a note, the stylesheet coming form bootstrap seems to interfere with the nav_style.css stylesheet. I don't really understand how
-or why its happening or for to address the issue.
+or why its happening or for to address the issue. Chrome is also modifying the background color of the "body" tag. Looks better in safari.
 
 This is the first time I've ever created a website or used HTML, CSS, and SCSS. I've learned quite a bit and hope to become more comfortable
 with being able to design a page how I want it. Also, I like that git was introduced early on. Thanks for making these classes/lectures available.
