@@ -1,0 +1,26 @@
+$nav_color: linear-gradient(180deg, #000000, aliceblue, #000000);
+
+
+
+nav {
+    background: $nav_color();
+    height: 70px;
+    padding-top: 40px;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    a {
+        font-size: 18px;
+        margin-left: 100px;
+    }
+    a:link {
+        color: rgb(0, 0, 0);
+    }
+    
+    a:visited {
+        color:rgb(153, 0, 145);
+    }
+    
+    a:hover {
+        color:rgb(6, 230, 211);
+    }
+}
