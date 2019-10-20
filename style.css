@@ -13,6 +13,9 @@ html {
     }
   }
 
+  body{
+      background: 0%;
+  }
 
 .tabledata {
     border: 2px solid aliceblue;
